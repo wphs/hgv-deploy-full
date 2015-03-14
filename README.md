@@ -1,4 +1,4 @@
-# Mercury Vagrant (HGV) Deployment Playbook
+# Mercury Vagrant (HGV) Deployment Playbook (with MariaDB)
 
 ## Introduction
 
@@ -83,4 +83,4 @@ Your Nginx configuration should automatically facilitate switching to PHP-FPM if
 
 ## Issues
 
-Please report any issues through GitHub or email me at zach@zach-adams.com and I'll do my best to get back to you!
+Please report any issues through GitHub and I'll do my best to get back to you!
