@@ -103,9 +103,9 @@ sub vcl_fetch {
 
 sub vcl_deliver {
     # Remove unwanted headers
-    unset resp.http.Server;
-    unset resp.http.X-Powered-By;
-    unset resp.http.x-backend;
-    unset resp.http.Via;
-    unset resp.http.X-Varnish;
+    #unset resp.http.Server;
+    #unset resp.http.X-Powered-By;
+    #unset resp.http.x-backend;
+    #unset resp.http.Via;
+    #unset resp.http.X-Varnish;
 }
